@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.search-box{
+    position: absolute;
+    float: right;
+    top: 14%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    background: #353b48;
+    height: 55px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn{
+    background: black;
+}
+
+.search-btn{
+    color: green;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 40%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: wheat;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 30px;
+    width: 0px;
+}
+.row{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+body{
+    font-family: Tahoma;
+}
+
+.hero{
+    position: absolute;
+    width: 1100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/Cover.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    color: wheat;
+}
+
+.main-nav{
+    list-style: none;
+    float:right;
+    margin-top: 20px;
+    
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+        
+}
+
+.main-nav li a{
+    color: aqua;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: bold;
+
+}
+
+.main-nav li a:hover{
+    color: #e67e22;
+    border-bottom: 2px solid #e67e22;
+    transition:all 0.5s ease-in;
+    padding: 15px 0;
+}
+
+.logo img{
+    height: 120px;
+    float: left;
+    margin-top: 30px;
+    background-color: transparent;
+    
+}
+
+.btn{
+    border: 1px solid #e67e22;
+    padding: 10px 10px;  
+    color: wheat;
+    text-decoration: none; 
+    border-radius: 12px;
+    margin-right: 20px; 
+}
+
+.button-awesome{
+    margin-top: 50px;
+}
+
+.btn-half{
+    background-color: #e67e22;
+    color: white;
+}
+
+.btn-full:hover{
+    background-color: #e67e22;
+    color: aquamarine;
+    transition: all 0.5s ease-in;
+}
+
+.copy{
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+
+h3:after{
+    width: 100px;
+    height: 2px;
+    background-color: #e67e22;
+    display: block;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.features h3{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.features p{
+    font-size: medium;
+}
+
+.arranging{
+    text-align: justify;
+}
+
+.features i{
+    font-size: 28px;
+    color: darkred;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.features h4{
+    margin-left: 40px;
+    margin-bottom: 5px;
+    
+}
+
+.meal-showcase{
+    list-style: none;
+    width: 100%;
+}
+
+.meal-showcase li{
+    display: block;
+    width: 30%;
+    float: left;
+}
+
+.meal-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.meal-photo img{
+    width: 100%;
+    height: 240px;
+    border: 2px solid lightpink;
+    transform: scale(1.00);
+    transition: all 0.5s;
+}
+
+.meal-photo img:hover{
+    transform: scale(1.05);
+}
+
+.meal{
+    margin top: 60px;
+}
+
+.cities{
+    margin-top: 100px;
+}
+
+.cities h3{
+    font-weight: bold;
+}
+
+.cities img{
+    width: 108%;
+    height: 220px;
+    margin-top: 50px;
+    border: 4px solid black;
+}
+
+.cities h4{
+    
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.cities p{
+    color: #353b48;
+}
+
+
+.cities h3{
+    margin-top: 800px;
+    margin-bottom: 20px;
+}
+
+.testimonials{
+    margin-top: 80px;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images.jpeg);
+    background-position: top;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: wheat;
+    background-attachment: fixed;
+}
+
+.testimonials h3{
+    font-weight: bold;
+}
+
+.testimonials p{
+    color: white;
+    line-height: 25px;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+
+.testimonials cite img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
